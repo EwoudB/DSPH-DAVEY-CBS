@@ -1,5 +1,6 @@
 # DSPH-DAVEY-CBS
-extract from code from DSPH class of 2025-2026, team DAVEY with the cognitive behavior game framework. 
+Data Science Personal Health project with team D.A.V.E.Y. with the developed Cognitive Behavior Software.
+The code is extracted from the original repo from DSPH class of 2025-2026 with the cognitive behavior game framework. 
 
 ## installation process:
 ### Requirements + config
@@ -13,13 +14,6 @@ You need to create your own 'config.yaml' file inside the root directory folder
 Example structure of the `config.yaml` file:
 
 ```
-digit_span : 'path/to/pickle'
-maze : 'path/to/pickle'
-reading_comprehension : 'path/to/pickle' 
-main : 'path/to/pickle'
-game_times: 'path/to/pickle'
-heart_rate: 'path/to/pickle'
-
 squad_df: 'path/to/pickle'
 data_folder_path: 'path/to/folder/for/saving/experiment/data'
 ```
